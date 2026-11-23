@@ -70,7 +70,7 @@ Un error de validación responde `400` con el detalle por campo:
 
 ## Stack
 
-- Spring Boot 4.1.1 / Java 21
+- Spring Boot 4.1.1 / Java 25 (LTS)
 - Spring AMQP (`AmqpAdmin` / `RabbitAdmin`)
 - Spring Security OAuth2 Resource Server (JWT de Azure AD)
 - Bean Validation
@@ -85,7 +85,7 @@ Un error de validación responde `400` con el detalle por campo:
 
 ## Cómo ejecutarlo en local
 
-Requiere Java 21 y RabbitMQ levantado (ver [andesstay-infra](https://github.com/MarCOCO999/andesstay-infra)).
+Requiere Java 25 y RabbitMQ levantado (ver [andesstay-infra](https://github.com/MarCOCO999/andesstay-infra)).
 
 ```bash
 ./mvnw spring-boot:run
@@ -100,4 +100,4 @@ Pruebas:
 
 ## Repos relacionados
 
-[frontend-andesstay](https://github.com/MarCOCO999/frontend-andesstay) · [ms-andesstay-bff](https://github.com/MarCOCO999/ms-andesstay-bff) · [ms-andesstay-reservations](https://github.com/MarCOCO999/ms-andesstay-reservations) · [ms-andesstay-catalog](https://github.com/MarCOCO999/ms-andesstay-catalog) · [ms-andesstay-notify](https://github.com/MarCOCO999/ms-andesstay-notify) · [ms-andesstay-audit](https://github.com/MarCOCO999/ms-andesstay-audit) · [ms-andesstay-report](https://github.com/MarCOCO999/ms-andesstay-report) · [andesstay-infra](https://github.com/MarCOCO999/andesstay-infra)
+[frontend-andesstay](https://github.com/MarCOCO999/frontend-andesstay) · [ms-andesstay-bff](https://github.com/MarCOCO999/ms-andesstay-bff) · [ms-andesstay-reservations](https://github.com/MarCOCO999/ms-andesstay-reservations) · [ms-andesstay-catalog](https://github.com/MarCOCO999/ms-andesstay-catalog) · [ms-andesstay-notify](https://github.com/MarCOCO999/ms-andesstay-notify) · [ms-andesstay-audit](https://github.com/MarCOCO999/ms-andesstay-audit) · [ms-andesstay-report](https://github.com/MarCOCO999/ms-andesstay-report) · [ms-andesstay-kafka-admin](https://github.com/MarCOCO999/ms-andesstay-kafka-admin) · [andesstay-infra](https://github.com/MarCOCO999/andesstay-infra)
